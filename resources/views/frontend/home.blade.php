@@ -60,11 +60,11 @@
                 <div class="product-price">
                   Offer price:
                   <br>
-                  ৳{{ number_format($item->purchase->first()->offer_price ?? 0 , 2, '.', ',') }}
+                  ৳{{ number_format($item->latest_purchase->offer_price ?? 0 , 2, '.', ',') }}
                   <br>
                   <span class="text-danger">Regular price:
                     <br>
-                    ৳{{ number_format($item->purchase->first()->regular_price ?? 0, 2, '.', ',') }}
+                    ৳{{ number_format($item->latest_purchase->regular_price ?? 0, 2, '.', ',') }}
                   </span>
                 </div>
               </div>
@@ -101,11 +101,11 @@
                 <div class="product-price">
                   Offer price:
                   <br>
-                  ৳{{ number_format($item->purchase->first()->offer_price ?? 0 , 2, '.', ',') }}
+                  ৳{{ number_format($item->latest_purchase->offer_price ?? 0 , 2, '.', ',') }}
                   <br>
                   <span class="text-danger">Regular price:
                     <br>
-                    ৳{{ number_format($item->purchase->first()->regular_price ?? 0, 2, '.', ',') }}
+                    ৳{{ number_format($item->latest_purchase->regular_price ?? 0, 2, '.', ',') }}
                   </span>
                 </div>
               </div>
@@ -142,11 +142,11 @@
                 <div class="product-price">
                   Offer price:
                   <br>
-                  ৳{{ number_format($item->purchase->first()->offer_price ?? 0 , 2, '.', ',') }}
+                  ৳{{ number_format($item->latest_purchase->offer_price ?? 0 , 2, '.', ',') }}
                   <br>
                   <span class="text-danger">Regular price:
                     <br>
-                    ৳{{ number_format($item->purchase->first()->regular_price ?? 0, 2, '.', ',') }}
+                    ৳{{ number_format($item->latest_purchase->regular_price ?? 0, 2, '.', ',') }}
                   </span>
                 </div>
               </div>
@@ -183,11 +183,11 @@
                 <div class="product-price">
                   Offer price:
                   <br>
-                  ৳{{ number_format($item->purchase->first()->offer_price ?? 0 , 2, '.', ',') }}
+                  ৳{{ number_format($item->latest_purchase->offer_price ?? 0 , 2, '.', ',') }}
                   <br>
                   <span class="text-danger">Regular price:
                     <br>
-                    ৳{{ number_format($item->purchase->first()->regular_price ?? 0, 2, '.', ',') }}
+                    ৳{{ number_format($item->latest_purchase->regular_price ?? 0, 2, '.', ',') }}
                   </span>
                 </div>
               </div>
@@ -224,11 +224,11 @@
                 <div class="product-price">
                   Offer price:
                   <br>
-                  ৳{{ number_format($item->purchase->first()->offer_price ?? 0 , 2, '.', ',') }}
+                  ৳{{ number_format($item->latest_purchase->offer_price ?? 0 , 2, '.', ',') }}
                   <br>
                   <span class="text-danger">Regular price:
                     <br>
-                    ৳{{ number_format($item->purchase->first()->regular_price ?? 0, 2, '.', ',') }}
+                    ৳{{ number_format($item->latest_purchase->regular_price ?? 0, 2, '.', ',') }}
                   </span>
                 </div>
               </div>

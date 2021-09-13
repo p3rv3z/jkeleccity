@@ -68,9 +68,9 @@
               <hr>
               <div class="pd-desc">
                 <h4 class="text-danger">Offer Price:</h4>
-                <h4 class="text-danger">৳{{ number_format($product->purchase->first()->offer_price ?? 0 , 2, '.', ',') }}</h4>
+                <h4 class="text-danger">৳{{ number_format($product->latest_purchase->offer_price ?? 0 , 2, '.', ',') }}</h4>
                 <h4>Regular Price:</h4>
-                <h4>৳{{ number_format($product->purchase->first()->unit_price ?? 0, 2, '.', ',') }}</h4>
+                <h4>৳{{ number_format($product->latest_purchase->regular_price ?? 0, 2, '.', ',') }}</h4>
               </div>
 
               <div class="">
@@ -275,11 +275,11 @@
                 <div class="product-price">
                   Offer price:
                   <br>
-                  ৳{{ number_format($item->purchase->first()->offer_price ?? 0 , 2, '.', ',') }}
+                  ৳{{ number_format($item->latest_purchase->offer_price ?? 0 , 2, '.', ',') }}
                   <br>
                   <span class="text-danger">Regular price:
                     <br>
-                    ৳{{ number_format($item->purchase->first()->regular_price ?? 0, 2, '.', ',') }}
+                    ৳{{ number_format($item->latest_purchase->regular_price ?? 0, 2, '.', ',') }}
                   </span>
                 </div>
               </div>
