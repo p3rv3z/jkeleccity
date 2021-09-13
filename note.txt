@@ -1,0 +1,28 @@
+# Feature Plan
+-> Add Bank Management System
+-> Multiple Warehouse Management System
+
+
+##########
+#purchase
+-> purchase summary on report
+
+#sale
+-> Discount product wise
+
+##
+purchase and sale invoice
+discus about stock report (Done)
+product return system (Working on it)
+
+add user from anywhere
+role permission management
+
+### New ###
+-> In dashboard implement some graphical report
+
+####  UI  ###
+-> Select Search System easy Enable/Disable System
+
+### Key Features ####
+-> Expense Note Character Limitation
